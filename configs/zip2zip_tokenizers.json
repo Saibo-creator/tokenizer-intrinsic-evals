@@ -1,0 +1,72 @@
+{
+  "GPT-2 (base)": {
+    "class": "hf",
+    "path": "gpt2"
+  },
+  "Zip2Zip/GPT-2 (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "gpt2",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "Gemma 3 (262k)": {
+    "class": "hf",
+    "path": "google/gemma-3-1b-it"
+  },
+  "Zip2Zip/Gemma 3 (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "google/gemma-3-1b-it",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "Qwen 3 (151k)": {
+    "class": "hf",
+    "path": "Qwen/Qwen3-8B"
+  },
+  "Zip2Zip/Qwen 3 (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "Qwen/Qwen3-8B",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "Mistral-Nemo": {
+    "class": "hf",
+    "path": "mistralai/Mistral-Nemo-Base-2407"
+  },
+  "Zip2Zip/Mistral-Nemo (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "mistralai/Mistral-Nemo-Base-2407",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "DeepSeek R1": {
+    "class": "hf",
+    "path": "deepseek-ai/DeepSeek-R1"
+  },
+  "Zip2Zip/DeepSeek R1 (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "deepseek-ai/DeepSeek-R1",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "GPT OSS (201k)": {
+    "class": "hf",
+    "path": "openai/gpt-oss-120b"
+  },
+  "Zip2Zip/GPT OSS (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "openai/gpt-oss-120b",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  },
+  "Apertus": {
+    "class": "hf",
+    "path": "swiss-ai/Apertus-8B-2509"
+  },
+  "Zip2Zip/Apertus (512 codebook)": {
+    "class": "zip2zip",
+    "base_tokenizer": "swiss-ai/Apertus-8B-2509",
+    "max_codebook_size": 512,
+    "max_subtokens": 8
+  }
+}

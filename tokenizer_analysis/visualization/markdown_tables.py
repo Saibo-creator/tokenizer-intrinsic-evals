@@ -64,7 +64,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'fertility',
-                'title': 'Fertility',
+                'title': 'Fertility ↓',
                 'key_path': ['fertility', 'per_tokenizer'],
                 'value_key': 'global',
                 'stat_key': 'mean',
@@ -72,7 +72,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'compression_rate',
-                'title': 'Compression Rate',
+                'title': 'Compression Rate ↑',
                 'key_path': ['compression_ratio', 'per_tokenizer'],
                 'value_key': 'global',
                 'stat_key': 'mean',
@@ -80,7 +80,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'vocabulary_utilization',
-                'title': 'Vocab Util.',
+                'title': 'Vocab Util. ↑',
                 'key_path': ['vocabulary_utilization', 'per_tokenizer'],
                 'value_key': 'global_utilization',
                 'stat_key': None,
@@ -88,7 +88,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'type_token_ratio',
-                'title': 'TTR',
+                'title': 'TTR ↑',
                 'key_path': ['type_token_ratio', 'per_tokenizer'],
                 'value_key': 'global_ttr',
                 'stat_key': None,
@@ -96,7 +96,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'renyi_1.0',
-                'title': 'Shannon Entropy',
+                'title': 'Shannon Entropy ↑',
                 'key_path': ['renyi_efficiency', 'per_tokenizer'],
                 'value_key': 'renyi_1.0',
                 'stat_key': 'overall',
@@ -104,7 +104,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'avg_token_rank',
-                'title': 'Avg Token Rank',
+                'title': 'Avg Token Rank ↑',
                 'key_path': ['unigram_distribution_metrics', 'per_tokenizer'],
                 'value_key': 'global_avg_token_rank',
                 'stat_key': None,
@@ -112,7 +112,7 @@ class MarkdownTableGenerator:
             },
             {
                 'key': 'tokenizer_fairness_gini',
-                'title': 'Gini',
+                'title': 'Gini ↓',
                 'key_path': ['tokenizer_fairness_gini', 'per_tokenizer'],
                 'value_key': 'gini_coefficient',
                 'stat_key': None,
